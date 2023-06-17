@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerce Regression Suite]">
+  <parameter name="browser" value="chrome_headless"/>
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.O2_UserRegistrationtest">
+        <methods>
+          <include name="RegisteredUserCanLogin"/>
+          <include name="setUpClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="tearDownClass"/>
+          <include name="stopDriver"/>
+          <include name="start_driver"/>
+        </methods>
+      </class> <!-- tests.O2_UserRegistrationtest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [nopcommerce Regression Suite] -->

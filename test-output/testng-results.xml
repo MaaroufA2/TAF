@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-16T21:28:07 EET" name="nopcommerce Regression Suite" finished-at="2023-06-16T21:28:13 EET" duration-ms="5338">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.O2_UserRegistrationtest@3b0090a4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-16T21:28:07 EET" name="Regression Test" finished-at="2023-06-16T21:28:13 EET" duration-ms="5338">
+      <class name="tests.O2_UserRegistrationtest">
+        <test-method is-config="true" signature="start_driver(java.lang.String)[pri:0, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:27:56 EET" name="start_driver" finished-at="2023-06-16T21:28:07 EET" duration-ms="11528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome_headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_driver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:28:08 EET" name="setUpClass" finished-at="2023-06-16T21:28:08 EET" duration-ms="98" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51b35e4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:28:08 EET" name="UserCanRegisterSuccssfully" finished-at="2023-06-16T21:28:10 EET" duration-ms="2493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:28:10 EET" name="screenshotOnFailure" finished-at="2023-06-16T21:28:10 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=O2_UserRegistrationtest.UserCanRegisterSuccssfully()[pri:1, instance:tests.O2_UserRegistrationtest@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="RegisteredUserCanLogin()[pri:2, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:28:10 EET" name="RegisteredUserCanLogin" finished-at="2023-06-16T21:28:13 EET" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:28:13 EET" name="screenshotOnFailure" finished-at="2023-06-16T21:28:13 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogin status=SUCCESS method=O2_UserRegistrationtest.RegisteredUserCanLogin()[pri:2, instance:tests.O2_UserRegistrationtest@3b0090a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:28:13 EET" name="tearDownClass" finished-at="2023-06-16T21:28:13 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.O2_UserRegistrationtest@3b0090a4]" started-at="2023-06-16T21:28:13 EET" name="stopDriver" finished-at="2023-06-16T21:28:13 EET" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.O2_UserRegistrationtest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- nopcommerce Regression Suite -->
+</testng-results>

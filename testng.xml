@@ -1,0 +1,8 @@
+<suite name="nopcommerce Regression Suite">
+	<parameter name="browser" value="chrome_headless"></parameter>
+	<test name="Regression Test">
+		<classes>
+			<class name="tests.O2_UserRegistrationtest" />
+		</classes>
+	</test>
+</suite> 
